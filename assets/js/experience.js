@@ -4,19 +4,25 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
- 
   {
-    title: "Content Moderator",
+    title: "IT Assistant",
+    cardImage: "assets/images/experience-page/ab-p.max-300x200.jpg",
+    place: "Genex Infosys",
+    time: "(December, 2021 - December, 2023)",
+    desp: "<li>Maintain Website and Databases.</li> <li>Compose document and troubleshoot networking issues.</li> <li>Working with spreadsheet and various software.</li>",
+  },
+  {
+    title: "Customer Support Executive",
     cardImage: "assets/images/experience-page/genex.jpg",
     place: "Genex Infosys",
-    time: "(March, 2022 - October, 2022)",
-    desp: "<li>Analyze user's video with define indicator.</li> <li>Respone immediately with multitasking.</li> <li>Working with spreadsheet and various software.</li>",
+    time: "(April, 2020 - May , 2021)",
+    desp: "<li>Analyze user's video with define indicator.</li><li>Inquiries and support customer problems.</li> <li>Respone immediately with multitasking.</li> <li>Working with spreadsheet and various software.</li>",
   },
   {
     title: "Telemarketer",
     cardImage: "assets/images/experience-page/oasis.jpg",
-    place: "Oasis Net Link, Dhaka",
-    time: "(Dec, 18 - Jan, 20)",
+    place: "Oasis Net Link",
+    time: "(March, 2018 - May, 2019)",
     desp: "<li>Make outgoing call to English speaking country.</li><li>Sale products.</li>",
   },
 
